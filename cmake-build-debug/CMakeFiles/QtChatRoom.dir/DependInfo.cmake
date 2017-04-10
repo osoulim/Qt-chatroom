@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mamzi/CLionProjects/QChatRoom/Lgwindow.cpp" "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o"
   "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/QtChatRoom_automoc.cpp" "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o"
   "/home/mamzi/CLionProjects/QChatRoom/main.cpp" "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles/QtChatRoom.dir/main.cpp.o"
   )

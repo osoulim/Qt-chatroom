@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/mamzi/CLionProjects/QChatRoom/cmake-build-debug
 CMakeFiles/QtChatRoom.dir/all: CMakeFiles/QtChatRoom_automoc.dir/all
 	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/depend
 	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target QtChatRoom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target QtChatRoom"
 .PHONY : CMakeFiles/QtChatRoom.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/QtChatRoom.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QtChatRoom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QtChatRoom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/QtChatRoom.dir/rule
@@ -103,7 +103,7 @@ clean: CMakeFiles/QtChatRoom.dir/clean
 CMakeFiles/QtChatRoom_automoc.dir/all:
 	$(MAKE) -f CMakeFiles/QtChatRoom_automoc.dir/build.make CMakeFiles/QtChatRoom_automoc.dir/depend
 	$(MAKE) -f CMakeFiles/QtChatRoom_automoc.dir/build.make CMakeFiles/QtChatRoom_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=4 "Built target QtChatRoom_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=5 "Built target QtChatRoom_automoc"
 .PHONY : CMakeFiles/QtChatRoom_automoc.dir/all
 
 # Build rule for subdir invocation for target.

@@ -136,6 +136,33 @@ QtChatRoom_automoc/fast:
 	$(MAKE) -f CMakeFiles/QtChatRoom_automoc.dir/build.make CMakeFiles/QtChatRoom_automoc.dir/build
 .PHONY : QtChatRoom_automoc/fast
 
+Lgwindow.o: Lgwindow.cpp.o
+
+.PHONY : Lgwindow.o
+
+# target to build an object file
+Lgwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o
+.PHONY : Lgwindow.cpp.o
+
+Lgwindow.i: Lgwindow.cpp.i
+
+.PHONY : Lgwindow.i
+
+# target to preprocess a source file
+Lgwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.i
+.PHONY : Lgwindow.cpp.i
+
+Lgwindow.s: Lgwindow.cpp.s
+
+.PHONY : Lgwindow.s
+
+# target to generate assembly for a file
+Lgwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.s
+.PHONY : Lgwindow.cpp.s
+
 QtChatRoom_automoc.o: QtChatRoom_automoc.cpp.o
 
 .PHONY : QtChatRoom_automoc.o
@@ -200,6 +227,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... QtChatRoom"
 	@echo "... QtChatRoom_automoc"
+	@echo "... Lgwindow.o"
+	@echo "... Lgwindow.i"
+	@echo "... Lgwindow.s"
 	@echo "... QtChatRoom_automoc.o"
 	@echo "... QtChatRoom_automoc.i"
 	@echo "... QtChatRoom_automoc.s"

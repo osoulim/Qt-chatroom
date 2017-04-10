@@ -114,6 +114,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/Lgwindow.cpp">
+			<Option target="QtChatRoom"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/Lgwindow.h">
+			<Option target="QtChatRoom"/>
+		</Unit>
 		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/main.cpp">
 			<Option target="QtChatRoom"/>
 		</Unit>

@@ -13,7 +13,7 @@ set(CMAKE_PREFIX_PATH /home/mamzi/Qt5.8.0/5.8/gcc_64/)
 #find the library
 find_package(Qt5Widgets)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Lgwindow.cpp Lgwindow.h)
 add_executable(QtChatRoom ${SOURCE_FILES})
 
 target_link_libraries(QtChatRoom Qt5::Widgets)
