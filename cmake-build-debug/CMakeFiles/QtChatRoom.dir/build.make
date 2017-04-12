@@ -105,9 +105,57 @@ CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o.provides: CMakeFiles/QtChatRoom.dir/Lgw
 CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o.provides.build: CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o
 
 
+CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o: CMakeFiles/QtChatRoom.dir/flags.make
+CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o: ../Chwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o -c /home/mamzi/CLionProjects/QChatRoom/Chwindow.cpp
+
+CMakeFiles/QtChatRoom.dir/Chwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtChatRoom.dir/Chwindow.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mamzi/CLionProjects/QChatRoom/Chwindow.cpp > CMakeFiles/QtChatRoom.dir/Chwindow.cpp.i
+
+CMakeFiles/QtChatRoom.dir/Chwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtChatRoom.dir/Chwindow.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mamzi/CLionProjects/QChatRoom/Chwindow.cpp -o CMakeFiles/QtChatRoom.dir/Chwindow.cpp.s
+
+CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o.requires:
+
+.PHONY : CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o.requires
+
+CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o.provides: CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o.requires
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o.provides.build
+.PHONY : CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o.provides
+
+CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o.provides.build: CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o
+
+
+CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o: CMakeFiles/QtChatRoom.dir/flags.make
+CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o: ../Network_mg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o -c /home/mamzi/CLionProjects/QChatRoom/Network_mg.cpp
+
+CMakeFiles/QtChatRoom.dir/Network_mg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtChatRoom.dir/Network_mg.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mamzi/CLionProjects/QChatRoom/Network_mg.cpp > CMakeFiles/QtChatRoom.dir/Network_mg.cpp.i
+
+CMakeFiles/QtChatRoom.dir/Network_mg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtChatRoom.dir/Network_mg.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mamzi/CLionProjects/QChatRoom/Network_mg.cpp -o CMakeFiles/QtChatRoom.dir/Network_mg.cpp.s
+
+CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o.requires:
+
+.PHONY : CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o.requires
+
+CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o.provides: CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o.provides.build
+.PHONY : CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o.provides
+
+CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o.provides.build: CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o
+
+
 CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o: CMakeFiles/QtChatRoom.dir/flags.make
 CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o: QtChatRoom_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o -c /home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/QtChatRoom_automoc.cpp
 
 CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.i: cmake_force
@@ -133,6 +181,8 @@ CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o.provides.build: CMakeFiles/Qt
 QtChatRoom_OBJECTS = \
 "CMakeFiles/QtChatRoom.dir/main.cpp.o" \
 "CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o" \
+"CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o" \
+"CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o" \
 "CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o"
 
 # External object files for target QtChatRoom
@@ -140,13 +190,16 @@ QtChatRoom_EXTERNAL_OBJECTS =
 
 QtChatRoom: CMakeFiles/QtChatRoom.dir/main.cpp.o
 QtChatRoom: CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o
+QtChatRoom: CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o
+QtChatRoom: CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o
 QtChatRoom: CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o
 QtChatRoom: CMakeFiles/QtChatRoom.dir/build.make
 QtChatRoom: /home/mamzi/Qt5.8.0/5.8/gcc_64/lib/libQt5Widgets.so.5.8.0
+QtChatRoom: /home/mamzi/Qt5.8.0/5.8/gcc_64/lib/libQt5Network.so.5.8.0
 QtChatRoom: /home/mamzi/Qt5.8.0/5.8/gcc_64/lib/libQt5Gui.so.5.8.0
 QtChatRoom: /home/mamzi/Qt5.8.0/5.8/gcc_64/lib/libQt5Core.so.5.8.0
 QtChatRoom: CMakeFiles/QtChatRoom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable QtChatRoom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable QtChatRoom"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QtChatRoom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +209,8 @@ CMakeFiles/QtChatRoom.dir/build: QtChatRoom
 
 CMakeFiles/QtChatRoom.dir/requires: CMakeFiles/QtChatRoom.dir/main.cpp.o.requires
 CMakeFiles/QtChatRoom.dir/requires: CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o.requires
+CMakeFiles/QtChatRoom.dir/requires: CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o.requires
+CMakeFiles/QtChatRoom.dir/requires: CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o.requires
 CMakeFiles/QtChatRoom.dir/requires: CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o.requires
 
 .PHONY : CMakeFiles/QtChatRoom.dir/requires

@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mamzi/CLionProjects/QChatRoom/Chwindow.cpp" "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o"
   "/home/mamzi/CLionProjects/QChatRoom/Lgwindow.cpp" "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o"
+  "/home/mamzi/CLionProjects/QChatRoom/Network_mg.cpp" "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o"
   "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/QtChatRoom_automoc.cpp" "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o"
   "/home/mamzi/CLionProjects/QChatRoom/main.cpp" "/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug/CMakeFiles/QtChatRoom.dir/main.cpp.o"
   )
@@ -14,6 +16,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NETWORK_LIB"
   "QT_WIDGETS_LIB"
   )
 
@@ -26,6 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtGui"
   "/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtCore"
   "/home/mamzi/Qt5.8.0/5.8/gcc_64/./mkspecs/linux-g++"
+  "/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtNetwork"
   )
 
 # Targets to which this target links.

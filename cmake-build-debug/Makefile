@@ -136,6 +136,33 @@ QtChatRoom_automoc/fast:
 	$(MAKE) -f CMakeFiles/QtChatRoom_automoc.dir/build.make CMakeFiles/QtChatRoom_automoc.dir/build
 .PHONY : QtChatRoom_automoc/fast
 
+Chwindow.o: Chwindow.cpp.o
+
+.PHONY : Chwindow.o
+
+# target to build an object file
+Chwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o
+.PHONY : Chwindow.cpp.o
+
+Chwindow.i: Chwindow.cpp.i
+
+.PHONY : Chwindow.i
+
+# target to preprocess a source file
+Chwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Chwindow.cpp.i
+.PHONY : Chwindow.cpp.i
+
+Chwindow.s: Chwindow.cpp.s
+
+.PHONY : Chwindow.s
+
+# target to generate assembly for a file
+Chwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Chwindow.cpp.s
+.PHONY : Chwindow.cpp.s
+
 Lgwindow.o: Lgwindow.cpp.o
 
 .PHONY : Lgwindow.o
@@ -162,6 +189,33 @@ Lgwindow.s: Lgwindow.cpp.s
 Lgwindow.cpp.s:
 	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.s
 .PHONY : Lgwindow.cpp.s
+
+Network_mg.o: Network_mg.cpp.o
+
+.PHONY : Network_mg.o
+
+# target to build an object file
+Network_mg.cpp.o:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o
+.PHONY : Network_mg.cpp.o
+
+Network_mg.i: Network_mg.cpp.i
+
+.PHONY : Network_mg.i
+
+# target to preprocess a source file
+Network_mg.cpp.i:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Network_mg.cpp.i
+.PHONY : Network_mg.cpp.i
+
+Network_mg.s: Network_mg.cpp.s
+
+.PHONY : Network_mg.s
+
+# target to generate assembly for a file
+Network_mg.cpp.s:
+	$(MAKE) -f CMakeFiles/QtChatRoom.dir/build.make CMakeFiles/QtChatRoom.dir/Network_mg.cpp.s
+.PHONY : Network_mg.cpp.s
 
 QtChatRoom_automoc.o: QtChatRoom_automoc.cpp.o
 
@@ -227,9 +281,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... QtChatRoom"
 	@echo "... QtChatRoom_automoc"
+	@echo "... Chwindow.o"
+	@echo "... Chwindow.i"
+	@echo "... Chwindow.s"
 	@echo "... Lgwindow.o"
 	@echo "... Lgwindow.i"
 	@echo "... Lgwindow.s"
+	@echo "... Network_mg.o"
+	@echo "... Network_mg.i"
+	@echo "... Network_mg.s"
 	@echo "... QtChatRoom_automoc.o"
 	@echo "... QtChatRoom_automoc.i"
 	@echo "... QtChatRoom_automoc.s"

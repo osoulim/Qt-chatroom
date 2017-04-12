@@ -5,6 +5,7 @@
 #include "Lgwindow.h"
 #include <QPushButton>
 #include <QTextEdit>
+#include <QLabel>
 
 Lgwindow::Lgwindow(QWidget *parent):
 QWidget(parent)
@@ -23,6 +24,9 @@ QWidget(parent)
     lgbut->setGeometry(30, 200, 240, 30);
     lgbut->setText("login");
 
+    QLabel *l1 = new QLabel(this);
+    l1->setGeometry(30, 70, 100, 30);
+    l1->setText("Enter Username");
     //show the objects
     username->show();
     ip->show();

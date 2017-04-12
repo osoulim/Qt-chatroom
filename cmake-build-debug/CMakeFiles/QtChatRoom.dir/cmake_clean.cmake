@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "QtChatRoom_automoc.cpp"
   "CMakeFiles/QtChatRoom.dir/main.cpp.o"
   "CMakeFiles/QtChatRoom.dir/Lgwindow.cpp.o"
+  "CMakeFiles/QtChatRoom.dir/Chwindow.cpp.o"
+  "CMakeFiles/QtChatRoom.dir/Network_mg.cpp.o"
   "CMakeFiles/QtChatRoom.dir/QtChatRoom_automoc.cpp.o"
   "QtChatRoom.pdb"
   "QtChatRoom"

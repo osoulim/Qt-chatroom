@@ -5,7 +5,7 @@
 		<Option title="QtChatRoom"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt5.8.0\;CMake Files\..\..\Qt5.8.0\5.8\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Core\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt5.8.0\;CMake Files\..\..\Qt5.8.0\5.8\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Network\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug"/>
@@ -47,6 +47,7 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
 					<Add directory="/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug"/>
 					<Add directory="/home/mamzi/CLionProjects/QChatRoom"/>
 					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/include"/>
@@ -54,6 +55,7 @@
 					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtGui"/>
 					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtCore"/>
 					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtNetwork"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -80,6 +82,7 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
 					<Add directory="/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug"/>
 					<Add directory="/home/mamzi/CLionProjects/QChatRoom"/>
 					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/include"/>
@@ -87,6 +90,7 @@
 					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtGui"/>
 					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtCore"/>
 					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtNetwork"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -114,10 +118,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/Chwindow.cpp">
+			<Option target="QtChatRoom"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/Chwindow.h">
+			<Option target="QtChatRoom"/>
+		</Unit>
 		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/Lgwindow.cpp">
 			<Option target="QtChatRoom"/>
 		</Unit>
 		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/Lgwindow.h">
+			<Option target="QtChatRoom"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/Network_mg.cpp">
+			<Option target="QtChatRoom"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/Network_mg.h">
 			<Option target="QtChatRoom"/>
 		</Unit>
 		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/main.cpp">
@@ -245,6 +261,21 @@
 		</Unit>
 		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/../../Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/../../Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/../../Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/../../Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/../../Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/mamzi/CLionProjects/QChatRoom/../../Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.8.0\5.8\gcc_64\lib\cmake\Qt5Network\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

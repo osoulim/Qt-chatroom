@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -g   -fPIC -std=gnu++11
 
-CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug -I/home/mamzi/CLionProjects/QChatRoom -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtWidgets -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtGui -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtCore -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/./mkspecs/linux-g++ 
+CXX_INCLUDES = -I/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug -I/home/mamzi/CLionProjects/QChatRoom -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtWidgets -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtGui -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtCore -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/./mkspecs/linux-g++ -isystem /home/mamzi/Qt5.8.0/5.8/gcc_64/include/QtNetwork 
 

@@ -190,8 +190,17 @@ Qt5Core_DIR:PATH=/home/mamzi/Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Core
 //The directory containing a CMake configuration file for Qt5Gui.
 Qt5Gui_DIR:PATH=/home/mamzi/Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Gui
 
+//The directory containing a CMake configuration file for Qt5Network.
+Qt5Network_DIR:PATH=/home/mamzi/Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Network
+
+//The directory containing a CMake configuration file for Qt5Netwrok.
+Qt5Netwrok_DIR:PATH=Qt5Netwrok_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for Qt5Widgets.
 Qt5Widgets_DIR:PATH=/home/mamzi/Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5Widgets
+
+//The directory containing a CMake configuration file for Qt5.
+Qt5_DIR:PATH=/home/mamzi/Qt5.8.0/5.8/gcc_64/lib/cmake/Qt5
 
 //Value Computed by CMake
 QtChatRoom_BINARY_DIR:STATIC=/home/mamzi/CLionProjects/QChatRoom/cmake-build-debug
