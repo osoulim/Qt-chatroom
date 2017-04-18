@@ -3,9 +3,6 @@
 //
 
 #include "Lgwindow.h"
-#include <QPushButton>
-#include <QTextEdit>
-#include <QLabel>
 
 Lgwindow::Lgwindow(QWidget *parent):
 QWidget(parent)
@@ -18,7 +15,7 @@ QWidget(parent)
     ip->setText("127.0.0.1");
     port = new QTextEdit(this);
     port->setGeometry(220, 150, 50, 30);
-    port->setText("8080");
+    port->setText("8000");
 
     lgbut = new QPushButton(this);
     lgbut->setGeometry(30, 200, 240, 30);
@@ -32,4 +29,14 @@ QWidget(parent)
     ip->show();
     port->show();
     lgbut->show();
+
+    show();
+    connect(lgbut, SIGNAL(clicked()), this, SLOT(login()));
+}
+
+void Lgwindow::login()
+{
+    QHostAddress *addr = new QHostAddress(this->ip->toPlainText());
+    quint16 *port = new quint16(this->port->toPlainText().toInt());
+    emit mk_connection(addr, *port, this->username->toPlainText());
 }

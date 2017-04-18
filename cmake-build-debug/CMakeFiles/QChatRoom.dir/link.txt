@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/QChatRoom.dir/main.cpp.o  -o QChatRoom 

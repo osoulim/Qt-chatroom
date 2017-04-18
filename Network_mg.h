@@ -6,19 +6,20 @@
 #define QTCHATROOM_NETWORK_MG_H
 
 #include <QObject>
-class QHostAddress;
-class QTcpSocket;
+#include <QHostAddress>
+#include <QTcpSocket>
+#include <QString>
 class Network_mg : public QObject
 {
     Q_OBJECT
     public:
-        Network_mg(QHostAddress*, int);
+        Network_mg(QHostAddress *add = new QHostAddress("127.0.0.1"), quint16 port = 8080);
     private:
         QTcpSocket *socket;
         QHostAddress *serverAddress;
         quint16 serverPort;
     public slots:
-        void getMessage(QString);
+        void getMessage();
         void sendMessage(QString);
     signals:
         void income(QString);

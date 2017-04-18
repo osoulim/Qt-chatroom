@@ -6,9 +6,11 @@
 #define QTCHATROOM_LGWINDOW_H
 
 #include <QWidget>
+#include <QHostAddress>
+#include <QPushButton>
+#include <QTextEdit>
+#include <QLabel>
 
-class QPushButton;
-class QTextEdit;
 
 class Lgwindow: public QWidget
 {
@@ -16,8 +18,12 @@ class Lgwindow: public QWidget
     public:
         explicit Lgwindow(QWidget *parent = 0);
     private:
-    QPushButton *lgbut;
-    QTextEdit *username, *ip, *port;
+        QPushButton *lgbut;
+        QTextEdit *username, *ip, *port;
+    public slots:
+        void login();
+    signals:
+        void mk_connection(QHostAddress*, quint16, QString);
 };
 
 

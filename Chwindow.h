@@ -7,19 +7,24 @@
 
 
 #include <QWidget>
-
-class QPushButton;
-class QTextEdit;
+#include <QPushButton>
+#include <QTextEdit>
+#include <QLineEdit>
 
 class Chwindow: public QWidget
 {
     Q_OBJECT
     public:
         explicit Chwindow(QWidget *parent=0);
-
     private:
         QPushButton *send;
-        QTextEdit *message, *panel;
+        QTextEdit *panel;
+        QLineEdit *message;
+    public slots:
+        void send_massage();
+        void new_massage(QString);
+    signals:
+        void forward(QString);
 
 };
 

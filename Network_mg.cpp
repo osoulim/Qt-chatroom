@@ -3,24 +3,25 @@
 //
 
 #include "Network_mg.h"
-#include <QHostAddress>
-#include <QTcpSocket>
-#include <QString>
 
-Network_mg::Network_mg(QHostAddress *add, int port)
+
+Network_mg::Network_mg(QHostAddress *add, quint16 port)
 {
     serverAddress = add;
     serverPort = port;
     socket = new QTcpSocket;
     socket->connectToHost(*serverAddress, serverPort);
+    connect(socket, SIGNAL(readyRead()), this, SLOT(getMessage()));
 }
 
-void Network_mg::getMessage(QString message)
+void Network_mg::getMessage()
 {
-
+    QString m = socket->readAll();
+    emit income(m);
 }
 
 void Network_mg::sendMessage(QString message)
 {
-
+    QByteArray data = &message.toStdString()[0];
+    socket->write(data);
 }
